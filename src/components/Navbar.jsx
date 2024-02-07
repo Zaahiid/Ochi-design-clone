@@ -1,9 +1,9 @@
 
-const linkData= ["Services","Our Work", "About Us", "Insights"];
+const linkData= ["Services","Our Work", "About Us", "Insights","Contact"];
 
 const Navbar = () => {
   return (
-    <div className="w-full px-20 py-8">
+    <div className=" fixed z-[999] w-full px-20 py-8 font-neue-montreal flex justify-between items-center">
     <div className="logo">
     <svg
         width="72"
@@ -34,9 +34,9 @@ const Navbar = () => {
         ></path>
       </svg>
     </div>
-    <div className="links">
+    <div className="links flex gap-10">
         {linkData.map((link,index)=>(
-            <a key={index} className="text-md font-semibold font-neue-montreal">{link}</a>
+            <a key={index} className={`text-lg capitalize font-light ${index === 4 && "ml-32"}`}>{link}</a>
         ))}
     </div>
 
