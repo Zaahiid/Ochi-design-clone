@@ -36,7 +36,7 @@ const Navbar = () => {
     </div>
     <div className="links">
         {linkData.map((link,index)=>(
-            <a key={index} className="text-md font-semibold">{link}</a>
+            <a key={index} className="text-md font-semibold font-neue-montreal">{link}</a>
         ))}
     </div>
 

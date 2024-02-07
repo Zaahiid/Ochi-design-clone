@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: NeueMontreal;
+  src: url('/src/fonts/PPNeueMontreal-Book.otf') format('opentype');
+}
+@font-face {
+  font-family: FoundersGrotesk;
+  src: url('/src/fonts/test-founders-grotesk-semibold.woff2') format('woff2');
+}
