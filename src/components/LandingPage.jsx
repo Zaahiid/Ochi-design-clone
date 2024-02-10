@@ -6,8 +6,8 @@ const LandingPage = () => {
       <div className="textstructure mt-52 px-20">
         {["We Create", "Eye Opening", "Presentation"].map((text, index) => (
           <div key={index} className="maskers">
-            <div className="w-fit flex">
-            {index === 1  && (<div className="w-[9vw] h-[6vw] relative top-[1.5vw] bg-red-500"></div>)}
+            <div className="w-fit flex items-end overflow-hidden">
+            {index === 1  && (<div className="mr-[1vw] w-[8vw] rounded-md h-[5vw] relative -top-[0.61vw] bg-red-500"></div>)}
               <h1 className="uppercase font-founders-grotesk leading-[7vw] tracking-tighter text-[7.5vw] font-medium">
                 {text}
               </h1>
